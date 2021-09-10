@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); /*Poppins Font Link*/
+
+:root {
+	--light: #f7f7f7;
+	--dark:  #1f1f1f;
+	--body: #fbfbfb;
+}
+
+.item-page {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 8rem;
+}
+
+.top-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item-img {
+	width: 48%;
+	aspect-ratio: 1/1;
+}
+
+.item-desc {
+	width: 48%;
+	aspect-ratio: 1/1;
+}
+
+.item-desc h1 {
+	font-weight: 200;
+}
+
+.item-desc h4 {
+	font-weight: 300;
+	color: grey;
+	line-height: 0;
+}
+
+.item-desc p {
+	line-height: 1.5;
+}
+
+.item-desc a {
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid var(--dark);
+	border-radius: 0;
+	outline: none;
+	color: var(--dark);
+	background-color: transparent;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+.item-desc a:hover,
+.item-desc a:active {
+	background-color: var(--dark);
+	color: var(--body);
+	border: 1px var(--body) solid ;
+}
