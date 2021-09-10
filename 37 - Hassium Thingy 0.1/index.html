@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- Local CSS Link -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- Font Awesome Link -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css" integrity="sha384-V5Z1KgRRJyY878qCx7+zUeTDm0FgjoYrbmSortFqRPGz+Ue6XDe4uIiMqB3tB/wd" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+	<!-- Google Fonts - Montserrat - Poppins - Rubik - Open Sans - Staatliches -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Rubik&family=Staatliches&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<h1>TODO LIST</h1>
+	<div id="a">
+		<div class="input-form">
+			<input v-model="message" placeholder="Enter Tasks..." />
+			<button v-on:click="Add" v-on>Add</button>
+		</div>
+		<p>
+			Click to mark done and double click to delete.
+		</p>
+		<h2>Todos</h2>
+		<ul v-on:dblclick="Delete">
+			<li
+			v-for="todo in todos"
+			v-if="todo.done"
+			v-bind:value="todo.done"
+			v-on:click="Strike(todo)"
+			>
+			<strike>{{todo.text}}</strike>
+			</li>
+			<li v-else v-bind:value="todo.done" v-on:click="Strike(todo)">
+				{{todo.text}}
+			</li>
+		</ul>
+	</div>
+	<!-- Local JS Link -->
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

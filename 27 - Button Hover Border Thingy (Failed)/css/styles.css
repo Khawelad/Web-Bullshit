@@ -1,0 +1,72 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	padding: 1rem 2rem;
+	border: none;
+	outline: none;
+	background-color: #dc143c; /*Crimson Color*/
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 1rem;
+	cursor: pointer;
+	position: relative;
+	height: 100px;
+	width: 200px;
+}
+
+button::before {
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 0;
+	left: 0;
+/*	transition: 2s;*/
+}
+
+button:hover::before {
+	animation: button 2s forwards;
+}
+
+@keyframes button {
+	0% {
+		border-left: 5px inset #8f0e28; /*Dark Crimson*/
+	}
+	
+	33% {
+		border-left: 5px inset #8f0e28;
+		border-top: 5px inset #8f0e28;
+	}
+	
+	66% {
+		border-left: 5px inset #8f0e28;
+		border-top: 5px inset #8f0e28;
+		border-right: 5px inset #8f0e28;
+	}
+	
+	100% {
+		border-left: 5px inset #8f0e28;
+		border-top: 5px inset #8f0e28;
+		border-right: 5px inset #8f0e28;
+		border-bottom: 5px inset #8f0e28;
+	}
+}

@@ -1,0 +1,51 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow: scroll;
+}
+
+.input-div * {
+	padding: 1rem;
+	border-radius: 0;
+	border: 1px solid #121212;
+	outline: 0;
+}
+
+.task {
+	margin-top: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #121212;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.task h2 {
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
+.task button {
+	margin: 0rem 0rem 0rem 1rem;
+	padding: 1rem;
+	border: none;
+	outline: none;
+}

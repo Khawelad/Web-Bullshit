@@ -1,0 +1,52 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: yellow;
+	position: relative;
+}
+
+div {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 18rem;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+select {
+	position: relative;
+	padding: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: bolder;
+	border: none;
+	outline: none;
+	position: absolute;
+	/*-webkit-appearance:  none;
+	background-image: url(../imgs/arrow.png);
+	background-size: 1rem;
+	background-repeat: no-repeat;
+	background-position: center right 0.75rem;*/
+}

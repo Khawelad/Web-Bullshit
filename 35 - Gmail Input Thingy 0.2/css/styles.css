@@ -1,0 +1,54 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10rem;
+}
+
+div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+}
+
+input {
+	background: #fafafa;
+	border: 2px solid transparent;
+	outline: none;
+	padding: 1rem;
+	border-radius: 5px;
+	position: absolute;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1rem;
+	position: absolute;
+}
+
+input:focus {
+	border-color: #ffc119;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1rem;
+	top: 1rem;
+	left: 1rem;
+	transition: 0.25s;
+	position: absolute;
+	pointer-events: none;
+}
+
+.meow {
+	font-size: 0.9rem;
+	top: -9px;
+	background: white;
+}

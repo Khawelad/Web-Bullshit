@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #FFFFFF;
+}
+
+/*.container {
+	padding: 0% 10%;
+}*/
+
+header {
+	height: 90px;
+	background-color: #81F4E1;
+	margin: 10px 5%;
+	padding: 0px 20px;
+}
+
+.nav {
+	text-decoration-style: none;
+	list-style: none;
+	padding: 5px;
+	margin: 5px 10px;
+	float: right;
+	line-height: 70px;
+}
+
+.nav:hover {
+	animation-name: navigations;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes navigations {
+	from { background-color: black; }
+	to { background-color: pink; }
+}
+
+.nav-anchor {
+	font-family: helvetica;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.jumbo {
+	height: 400px;
+	background-color: #56CBF9;
+	margin: 10px 5%;
+	padding: 10px 20px;
+	text-align: justify;
+}
+
+.left-sec {
+	margin: 10px 10px 10px 5%;
+	width: 60%;
+	background-color: #56CBF9;
+	height: 800px;
+	float: left;
+}
+
+.right-sec {
+	margin: 10px 5% 10px 10px;
+	width: 28%;
+	background-color: #56CBF9;
+	height: 800px;
+	float: right;
+}
+
+.footer {
+	margin: 10px 5%;				/* margin does not work, it should be 20px combined but cuz of clear property, it only gives 10px margin..*/
+	background-color: #56CBF9;
+	height: 60px;
+	clear: both;
+}

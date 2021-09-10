@@ -1,0 +1,96 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+	color: #1d1d1d;
+}
+
+h3 {
+	margin-top: 1rem;
+}
+
+input {
+	padding: 0.4rem;
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+	border: 1px solid #1d1d1d;
+	width: 35ch;
+}
+
+.tasks-panel {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.task {
+	margin-top: 1rem;
+	background: #f3f3f3;
+	padding: 1rem;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-width: 50%;
+}
+
+.buttons {
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 50%;
+}
+
+.btn {
+	padding: 0.4rem 0.5rem;
+	outline: none;
+	border: 1px solid #1d1d1d;
+	border-radius: 5px;
+	transition: 0.5s;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+}
+
+.delete:hover {
+	background: crimson;
+	color: white;
+}
+
+.edit:hover {
+	background: #1d1d1d;
+	color: white;
+}
+
+.done:hover {
+	background: #4bc93c;
+	color: white;
+}
+
+P {
+	
+}
+
+p::selection {
+	background: #1d1d1d;
+	color: white;
+}

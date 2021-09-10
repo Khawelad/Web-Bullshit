@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background-color: #121212;
+  color: white;
+  height: 50px;
+}
+
+.logo {
+  line-height: 50px;
+  font-size: 15px;
+  font-family: Montserrat;
+  float: left;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  text-decoration-style: none;
+  color: white;
+}
+
+.nav li {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  float: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  line-height: 40px;
+}
+
+.large-banner {
+  background: url(https://image.freepik.com/free-vector/modern-city-skyline-background_77417-791.jpg);
+  /* background-blend-mode: multiply; */
+  background-size: contain;
+  height: 500px;
+  text-align: center;
+  font-family: Montserrat;
+  padding: auto;
+  position: relative;
+  color: white;
+  clear: both;
+}
+
+.banner-text {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

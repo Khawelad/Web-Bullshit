@@ -1,0 +1,110 @@
+:root {
+	--blurple: #7289DA;
+	--white: white;
+	--text: #2C2F33;
+	--dark: #23272A;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: var(--text);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--blurple);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: #6276bd;
+}
+
+body {
+	background-color: var(--white);
+	color: var(--text);
+	font-family: 'Open Sans', sans-serif;
+}
+
+#main-content {
+	float: right;
+	width: 96.5%;
+	transition: 0.5s;
+}
+
+.card {
+	padding: 20px;
+	width: auto;
+	border: 1px solid var(--blurple);
+	margin: 20px 10px; 
+	text-align: justify;
+	position: relative;
+}
+
+.card h1 {
+	margin-bottom: 10px;
+}
+
+#sidebar {
+	background-color: var(--blurple);
+	height: 100%;
+	width: 3.5%;
+	padding: 20px 0px;
+	text-align: center;
+	display: inline-block;
+	color: var(--white);
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	position: relative;
+	transition: 0.5s;
+}
+
+#menuopen {
+
+}
+
+#sidebar-content {
+	display: block;
+	opacity: 0;
+	transition: 1s;
+}
+
+#sidebar i {
+	font-size: 2vw;
+}
+
+#sidebar i:hover {
+	cursor: pointer;
+}
+
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+#sidebar h3 {
+	border-bottom: 1px solid var(--white);
+}
+
+#sidebar h6 {
+
+}

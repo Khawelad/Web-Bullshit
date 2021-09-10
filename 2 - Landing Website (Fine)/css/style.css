@@ -1,0 +1,222 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	padding: 0px 10%;
+}
+
+header {
+	background-image: linear-gradient(to right, #537dea , #2abddf);
+	height: 90px;
+}
+
+.logo {
+	font-family: Montserrat;
+	color: white;
+	font-size: 30px;
+	float: left;
+	line-height: 70px;
+	margin: 5px 10px;
+	padding: 5px 10px;
+}
+
+.nav {
+	font-family: Montserrat;
+	color: white;
+	font-size: 20px;
+	float: right;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	list-style-type: none;
+	line-height: 70px
+}
+
+.nav:hover {
+	color: #1a1b1c;
+	font-weight: bold;
+}
+
+.jumbo-welcome {
+	height: 500px;
+	background-image: linear-gradient(to right, #537dea , #2abddf);
+	padding-top: 10px
+}
+
+.jumbo-text-left {
+	color: white;
+	font-family: montserrat;
+	width: 50%;
+	word-wrap: break-word;
+	float: left;
+}
+
+#big-jumbo-text {
+	font-size: 60px;
+}
+
+#sml-jumbo-text {
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#price-btn {
+	color: white;
+	font-family: montserrat;
+	background-color: #00ca4c;
+	padding: 20px 50px;
+	border: none;
+	border-radius: 100px;
+	font-weight: bold;
+	box-shadow: 4px 2px 20px #989b9e;
+}
+
+#price-btn:hover {
+	background-color: #04b847;
+	cursor: pointer;
+}
+
+.sign-up {
+	height: 475px;
+	width: 400px;
+	background-color: white;
+	float: right;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 10px 10px 100px #989b9e;
+}
+
+#sgn-up-text {
+	font-family: montserrat;
+	margin-top: 30px;
+}
+
+.form-sgn {
+	margin: 20px;
+	height: 40px;
+	width: 300px;
+	font-family: montserrat;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#rg-btn {
+	color: white;
+	font-family: montserrat;
+	background-color: #1d82ff;
+	padding: 20px 50px;
+	border: none;
+	font-size: 20px;
+	border-radius: 100px;
+	font-weight: bold;
+	box-shadow: 4px 2px 10px #989b9e;
+}
+
+#rg-btn:hover {
+	background-color: #1972e0;
+	cursor: pointer;
+}
+
+.features {
+	background-color: #e1e9f2;
+	height: 575px;
+	padding-top: 50px;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+}
+
+.small-text {
+	font-family: montserrat;
+	font-size: 16px;
+	color: #9da2a8;
+}
+
+.big-text {
+	font-family: montserrat;
+	font-size: 36px;
+	color : #1a1b1c;
+}
+
+.feature {
+	font-size: 48px;
+	color: transparent;
+	background: linear-gradient(to right, #537dea , #2abddf);	
+	-webkit-background-clip: text;
+	margin-bottom: 10px;
+}
+
+.card-1 {
+	text-align: left;
+	width: 25%;
+	height: 150px;
+	padding: 30px 20px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.cards {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+.feature-heading {
+	font-family: montserrat;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.feature-text {
+	font-family: montserrat;
+	font-size: 14px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.app-features {
+	margin: 50px 0px;
+	padding: auto;
+	height: 650px;
+}
+
+.app-features-text-right {
+	float: right;
+	height: 616px;
+	text-align: center;
+	width: 775px;
+}
+
+.card-2-1 {
+	width: 275px;
+	display: inline-block;
+	margin: 30px 50px 10px 0px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.rating {
+	font-size: 48px;
+	color: transparent;
+	background: gold;	
+	-webkit-background-clip: text;
+	margin-bottom: 10px;
+}
+
+.reviews {
+	text-align: center;
+	margin-top: 80px;
+	height: 300px;
+	clear: both;
+}
+
+.quotes {
+	font-family: helvetica;
+	font-size: 36px;
+}

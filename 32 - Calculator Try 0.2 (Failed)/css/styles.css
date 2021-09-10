@@ -1,0 +1,35 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+table {
+	font-size: 2rem;
+}
+
+td {
+	padding: 1rem 2rem;
+	text-align: center;
+	background-color: #FFC119;
+}
+
+.display {
+	text-align: right;
+	height: 5rem;
+}

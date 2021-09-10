@@ -1,0 +1,68 @@
+:root {
+	--black:  #121212;
+	--golden:  #ffc119;
+	--hover:  #e0ab16;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--black);
+	height: 100vh;
+}
+
+.wrapper {
+	width:304px;
+	border: 2px solid var(--golden);
+}
+
+.sub-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.wrapper input {
+	padding: 20px;
+	text-align: right;
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+button {
+	border: none;
+	outline: none;
+	color: white;
+	background-color: var(--golden);
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	height: 50px;
+}
+
+button:hover {
+	background-color: var(--hover);
+	cursor: pointer;
+}
+
+.clear, .operator, .number {
+	width: 75px;
+}
+
+.equal {
+	width: 225px;
+}

@@ -1,0 +1,418 @@
+/*Golden #FFC119*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.bg {
+	filter: blur(2px) brightness(40%);
+	transform: scale(1.2);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#windows-1, #windows-2, #windows-3, #windows-4, #windows-5 {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 80%;
+	top: 0;
+	right: -100%;
+	transition: 1s;
+	float: right;
+	opacity: 1;
+}
+
+#windows-1 {
+	right: 0;
+}
+
+/*Windows 1 Starts*/
+
+.h-1 {
+	font-size: 3.5rem;
+	font-family: 'Rubik', cursive;
+	color: white;
+	font-weight: 900;
+}
+
+.p {
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding: 5px 0px;
+}
+
+.main-text p a {
+	text-decoration: none;
+	color: white;
+}
+
+.golden {
+	color: #FFC119;
+}
+
+.social-media-link {
+	margin-top: 5px;
+}
+
+.social-media-link a {
+	color: white;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.social-media-link a:hover {
+	color: #FFC119;
+}
+
+.social-media-link li {
+	padding: 10px 20px 10px 0px;
+	display: inline-block;
+}
+
+.social-media-link i {
+	font-size: 1rem;
+}
+
+/*Windows 2 Starts*/
+
+.category {
+
+}
+
+.category button {
+	padding: 10px 5px;
+	margin: 10px 0px;
+	width: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	transition: 0.5s;
+	font-size: 1rem;
+}
+
+.category button:hover {
+	cursor: pointer;
+	background-color: #FFC119;
+	font-size: 1.1rem;
+}
+
+.active-cat {
+	background-color: #FFC119 !important;
+}
+
+.cat-container {
+	position: relative;
+	height: 350px;
+	width: 80%;
+	margin-left: 50px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ranks-cat, .prefix-cat, .crate-cat {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+}
+
+#prefix, #crate {
+	top: -250%;
+}
+
+.card {
+	width: 230px;
+/*	height: 300px;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 20px;
+	padding: 40px 20px;
+	text-align: center;
+	border: 3px inset #FFC119;
+}
+
+.card * {
+	margin-bottom: 10px;
+}
+
+.card i {
+	font-size: 36px;
+	color: #FFC119;
+}
+
+.card h3 {
+	color: #FFC119;
+	font-family: 'Rubik', sans-serif;
+}
+
+.card p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.card button {
+	margin-top: 5px;
+	background-color: #FFC119;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	font-weight: bolder;
+	border: none;
+}
+
+.card button:hover {
+	cursor: pointer;
+	background-color: #e6ad12;
+}
+
+/*Windows 3 Starts*/
+
+.container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.cmnds {
+	position: relative;
+}
+
+.get-started {
+	position: relative;
+}
+
+.panel {
+	width: 335px;
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding-right: 10px;
+}
+
+.gt-st {
+	width: 455px;
+	margin-right: 40px;
+}
+
+.rules-panel::-webkit-scrollbar, .panel::-webkit-scrollbar {
+	width: 5px;
+}
+
+.rules-panel::-webkit-scrollbar-track, .panel::-webkit-scrollbar-track { 
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.rules-panel::-webkit-scrollbar-thumb, .panel::-webkit-scrollbar-thumb { 
+  background-color: #FFC119;
+}
+
+.rules-panel::-webkit-scrollbar-thumb:hover, .panel::-webkit-scrollbar-thumb:hover {
+	background-color: #c9ab00;
+}
+
+.panel h3 {
+	color: #FFC119;
+}
+
+.panel p {
+	margin-bottom: 8px;
+}
+
+/*Windows 4 Startss*/
+
+#windows-4 {
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.upperstaff {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 1100px;
+}
+
+.card-staff {
+	width: 180px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	text-align: center;
+	margin-right: 20px;
+	display: inline-block;
+	border: 1px inset #FFC119;
+}
+
+.card-staff img {
+	z-index: -1;
+}
+
+.card-staff h3 {
+	color: #FFC119;
+	font-family: 'Rubik', sans-serif;
+	font-size: 24px;
+}
+
+.card-staff p {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 22px;
+	font-weight: bolder;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.card-staff a {
+	text-decoration: none;
+}
+
+.card-staff i {
+	color: white;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+.card-staff i:hover {
+	color: #FFC119;
+}
+
+.note-staff {
+	width: 50%;
+}
+
+.note-staff h2 {
+	color: #FFC119;
+	font-size: 32px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.lowerstaff {
+	margin-top: 10px;
+	width: 950px;
+}
+
+.staff-cat {
+	background-color: #FFC119;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.staff-cat button {
+	padding: 10px;
+	background-color: #FFC119;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+}
+
+.staff-cat button:hover {
+	cursor: pointer !important;
+	background-color: #e6ad12 !important;
+}
+
+#admin-btn {
+	background-color: #e6ad12;
+	font-weight: bolder;
+}
+
+.staff-cat-panel {
+	height: 200px;
+	width: 950px;
+	border: 1px inset #FFC119;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.admins, .moderator, .helper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	position: absolute;
+	transition: 1s;
+}
+
+.moderator, .helper {
+	opacity: 0;
+}
+
+.lower-staff-card {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px inset #FFC119;
+	margin: 10px;
+	padding: 20px 0px;
+	text-align: center;
+	width: 120px;
+}
+
+.lower-staff-card h2 {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 10px;
+}
+
+
+/*Windows 5 Starts*/
+
+#windows-5 {
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.rules-panel {
+	height: 400px;
+	width: 800px;
+	border-top: 1px solid #ffc119;
+	padding: 8px 0px;
+	padding-right: 10px;
+	text-align: justify;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+/*#windows-1, #windows-2, #windows-3, #windows-4, #windows-5 {
+	display: none; 
+}*/
+
+/*@media only screen and (min-width: 1600px) {
+
+#windows-1 *, #windows-2 *, #windows-3 *, #windows-4 *, #windows-5 * {
+	transform: scale(1.4);
+}	
+
+.social-media-link li {
+	transform: scale(1) !important;
+}
+
+}*/

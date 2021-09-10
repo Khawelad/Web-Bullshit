@@ -1,0 +1,44 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+div {
+	padding: 2rem;
+	position: relative;
+	z-index: 0;
+	background-color: #f8f8f8;
+}
+
+input {
+	padding: 1rem;
+	background-color: #f3f3f3;
+	border: 0;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	z-index: 0;
+	box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.ipt-plchld::-webkit-input-placeholder {
+	position: absolute;
+	left: -1rem;
+	top: 0;
+	color: black;
+	z-index: 99;
+}

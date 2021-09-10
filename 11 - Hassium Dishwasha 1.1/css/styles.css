@@ -1,0 +1,82 @@
+:root {
+	--blurple: #7289DA;
+	--white: white;
+	--text: #2C2F33;
+	--dark: #23272A;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	overflow: hidden;
+}
+
+.content {
+	width: 96.5%;
+	float: right;
+	transition: 1s;
+}
+
+.card {
+	padding: 20px;
+	color: var(--text);
+	margin: 10px;
+	border: 1px solid var(--blurple);
+}
+
+.sidebar {
+	background-color: var(--blurple);
+	width: 20%;
+	height: 100%;
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: -16.5%;
+	transition: 1s;
+	padding: 20px 0px;
+}
+
+.btn {
+	height: 100vh;
+	color: var(--white);
+	float: right;
+	border-left: 1px solid var(--white);
+	padding: 0px 20px;
+	line-height: 100vh !important;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+	color: var(--white);
+	padding: 0px 20px;
+	float: left;
+	width: 75%;
+}
+
+.menu a {
+	text-decoration: none;
+	color: var(--white);
+}
+
+.menu h3 {
+	border-bottom: 1px solid var(--white);
+	padding: 5px 0px;
+	margin: 10px 0px;
+}

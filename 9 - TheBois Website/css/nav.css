@@ -1,0 +1,92 @@
+nav {
+	position: fixed;
+	top: 0;
+	left: 3vw;
+	height: 100vh;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav i {
+	padding: 20px;
+	border-radius: 100px;
+	margin: 10px 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 16px;
+	position: relative;
+	z-index: 99;
+	height: 2%;
+	text-align: center;
+	line-height: 2%;
+}
+
+nav i::after {
+	content: '';
+	display: none;
+	position: absolute;
+	color: white;
+	z-index: -1;
+	text-align: center;
+	padding: 20px 0px;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	top: 0px;
+	left: 30px;
+	overflow: hidden;
+	width: 100px;
+	font-size: 16px;
+	border-radius: 0px 100px 100px 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav i:hover, nav i:hover::after {
+	color: white;
+	background-color: #FFC119 !important;
+	cursor: pointer;
+}
+
+.home::after {
+	content: 'Home';
+}
+
+.shop::after {
+	content: 'Shop';
+}
+
+.guide::after {
+	content: 'Guide';
+}
+
+.staff::after {
+	content: 'Staff';
+}
+
+.rules::after {
+	content: 'Rules';
+}
+
+.home:hover::after, .shop:hover::after, .guide:hover::after, .staff:hover::after, .rules:hover::after {
+	display: inline;
+	animation: nav 0.1s ease-out;
+}
+
+@keyframes nav {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 120px;
+	}
+}
+
+.active {
+	background-color: #FFC119;
+}

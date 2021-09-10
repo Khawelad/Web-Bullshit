@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body, html {
+	height:100%;
+}
+
+.main-welcome {
+	background-image:url(../imgs/hero-bg.jpg);
+	opacity: 0.3;
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:cover;
+}
+
+nav {
+	display: flex;
+	vertical-align: middle;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	height: 100%;
+	margin-left: 20px;
+}
+
+nav a{
+	color: black;
+}
+
+.nav-style {
+	text-align: center;
+	line-height: 50px !important;
+	width: 50px;
+	height: 50px;
+	font-size: 22px;
+	background-color:rgba(225,225,225,1);
+	padding: 10px;
+	transition: 0.5s;
+}
+
+.nav-style:hover {
+	box-shadow: 0px 0px 5px black;
+	color: rgba(225, 225, 225, 1);
+	background-color: black;
+}
+
+.blue-text {
+	color: #0339f8;
+}

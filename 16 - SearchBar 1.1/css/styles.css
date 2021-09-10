@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+	--blurple: #7289DA;
+	--white: #FFFFFF;
+	--dark: #2C2F33;
+	--darker: #23272A;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--darker);
+}
+
+.searchbar {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height:60px;
+	margin-top:20px;
+}
+
+.searchbar input {
+	padding: 20px;
+	outline:none;
+	font-family: 'Open Sans', sans-serif;
+	height:60px;
+	border: 1px solid var(--blurple);
+	font-size:16px;
+	background-color: var(--dark);
+	color: white;
+}
+
+.searchbar input:placeholder {
+	color: white;
+}
+
+.searchbar button {
+	outline: none;
+	position:relative;
+	left: -5px;
+	font-size:20px;
+	height:60px;
+	padding:10px 20px;
+	color:white;
+	background-color: var(--blurple);
+	border:none;
+	transition: 0.5s;
+}
+
+.searchbar button:hover {
+	cursor: pointer;
+	background-color: #667bc4;
+}
+
+.container {
+	width: 90%;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.card {
+	font-family: 'Open Sans', sans-serif;
+	width: 200px;
+	height: 200px;
+	color: white;
+	background-position: center;
+	transition: 1s;
+	cursor: pointer;
+	/*box-shadow: 0px 0px 20px 10px var(--blurple);*/
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.c1 {
+	background-image: url(../imgs/coffee/1.jpg);
+}
+
+.c2 {
+	background-image: url(../imgs/coffee/2.jpg);
+}
+
+.c3 {
+	background-image: url(../imgs/coffee/3.jpg);
+}
+
+.c4 {
+	background-image: url(../imgs/coffee/4.jpg);
+}
+
+.pc1 {
+	background-image: url(../imgs/pc/1.jpg);
+}
+
+.pc2 {
+	background-image: url(../imgs/pc/2.jpg);
+}
+
+.pc3 {
+	background-image: url(../imgs/pc/3.jpg);
+}
+
+.pc4 {
+	background-image: url(../imgs/pc/4.jpg);
+}
+
+.pet1 {
+	background-image: url(../imgs/pets/1.jpg);
+}
+
+.pet2 {
+	background-image: url(../imgs/pets/2.jpg);
+}
+
+.pet3 {
+	background-image: url(../imgs/pets/3.jpg);
+}
+
+.pet4 {
+	background-image: url(../imgs/pets/4.jpg);
+}
+
+h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	display: none;
+}

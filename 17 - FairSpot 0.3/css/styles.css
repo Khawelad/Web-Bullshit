@@ -1,0 +1,369 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/*Not gonna make this one cuz its...retarded*/
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	/*GOTTA CHANGE THE NAVVVVv*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px), (min-width: 768px), (min-width: 600px) {
+	.banner {
+		height: 35em;
+		background-image: linear-gradient(#1996e3, #1580c2);
+	}
+
+	.container {
+		width: 80%;
+		margin: 0px auto;
+	}
+
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	header {
+		border-bottom: 1px solid white;
+		color: white;
+		height: 4em;
+		overflow: hidden;
+	}
+
+	header h2 {
+		float: left;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 2.5em;
+	}
+
+	nav li{
+		float: right;
+		list-style-type: none;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		padding: 10px 20px;
+		margin: 13px 10px;
+	}
+
+	nav a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.login-btn {
+		background-color: #1580C2;
+		border-radius: 5px;
+		transition: 0.5s;
+	}
+
+	.login-btn:hover {
+		background-color: #10689E;
+	}
+
+	.banner-content {
+		color: white;
+		width: 30em;
+		margin-top: 5em;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+		float: left;
+		height: 100%;
+	}
+
+	.banner-content h1 {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.banner-content h3, .banner-content p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: lighter;
+	}
+
+	.banner-content p {
+		color: #e8e8e8;
+	}
+
+	.banner-alert {
+		background-color: #1580C2;
+		padding: 1em;
+		width: 28em;
+	}
+
+	.banner-alert a {
+		padding: 0.5em;
+		background-color: #10689E;
+		font-family: 'Open Sans', sans-serif;
+		color: white;
+		text-decoration: none;
+		margin-right: 5px;
+		transition: 1s;
+	}
+
+	.banner-alert a:hover {
+		background-color: white;
+		color: #10689E;
+	}
+
+	.banner-right {
+		float: right;
+		margin-top: 5em;
+		width: 20em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.banner-right-stat {
+		text-align: center;
+		background-color: white;
+		border-radius: 10px;
+		height: 25em;
+		padding: 0 3em;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.banner-right h1 {
+		color: #23272A;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 42px;
+	}
+
+	.banner-right h2 {
+		color: #929292;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+	}
+
+	.services h1 {
+		font-family: 'Montserrat', sans-serif;
+		color: #2C2F33;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.row {
+		display: flex;
+		justify-content: center;
+		align-content: space-between;
+		flex-direction: row;
+	}
+
+	.card {
+		width: 28%;
+		color: #2C2F33;
+		padding: 2em;
+		background-color: #1580C2;
+		border-radius: 10px;
+		margin: 20px;
+		color: white;
+		text-align: center;
+	}
+
+	.card i {
+		font-size: 5em;
+	}
+
+	.card h3 {
+		font-family: 'Montserrat', sans-serif;
+		margin: 10px 0px;
+	}
+
+	.card p {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.fairspot-ecl {
+		background-image: linear-gradient(to bottom, #1580C2, #1996e3);
+		height: 45em;
+		position: relative;
+		top: -4px;
+		color: white;
+		padding-top: 30px;
+	}
+
+	.fairspot-ecl h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 7em;
+		text-align: center;
+	}
+
+	.fairspot-ecl-flex {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+		height: 25em;
+	}
+
+	.fairspot-ecl-flex-left {
+		width: 50%;
+		text-align: left;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+	}
+
+	.fairspot-ecl-flex-left h1 {
+		font-size: 2.6em;
+		text-align: left;
+	}
+
+	.fairspot-ecl-flex-left p {
+		font-size: 1em;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.fairspot-ecl-flex-right {
+		width: 50%;	
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+
+	.fairspot-ecl-flex-right i {
+		font-size: 20em;
+		transform: rotateZ(8deg);
+	}
+
+	.svg-fix {
+		position: relative;
+		top: -5px;
+	}
+
+	.fairspot-podcast {
+		color: #23272A;
+	}
+
+	.fairspot-podcast h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 7em;
+		text-align: center;
+	}
+
+	.fairspot-podcast-flex {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		flex-direction: row;
+		margin-bottom: 50px;
+	}
+
+	.fairspot-podcast-flex-left {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.fairspot-podcast-flex-left h1 {
+		font-size: 2.6em;
+		text-align: left;
+	}
+
+	.fairspot-podcast-flex-left p {
+		font-family: 'Open Sans', sans-serif;
+		margin: 20px 0px;
+	}
+
+	.fairspot-podcast-flex-left a {
+		padding: 10px 20px;
+		border-radius: 5px;
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		text-decoration: none;
+		background-color: #1580C2;
+		transition: 1s;
+	}
+
+	.fairspot-podcast-flex-left a:hover {
+		background-color: #10689E;
+	}
+
+	.fairspot-podcast-flex-right {
+		width: 50%;
+	}
+
+	.fairspot-podcast-flex-right img {
+		float: right;
+		width: 90%;
+	}
+
+	.footer-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: row;
+	}
+
+	.svg-fix-1 {
+		position: relative;
+		bottom: -5px;
+	}
+
+	footer {
+		background-color: #1894E0;
+		height: 200px;
+		color: white;
+	}
+
+	footer .col {
+		width: 20%;
+		height: 100%;
+		display: inline-block;
+	}
+
+	footer h3 {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	footer p {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	footer a {
+		font-family: 'Open Sans', sans-serif;
+		text-decoration: none;
+		color: white;
+	}
+
+	footer a:hover {
+		text-decoration: underline;
+		text-decoration-color: white;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

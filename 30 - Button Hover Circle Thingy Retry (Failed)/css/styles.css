@@ -1,0 +1,55 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+a {
+	padding: 2rem;
+	background: #f1f1f1;
+	border-radius: 4rem;
+	font-size: 2rem;
+	color: #FFC119;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-decoration: none;
+}
+
+.cricle {
+	animation: button 1s infinite;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	display: block;
+}
+
+@keyframes button {
+	from {
+		width: 0;
+		height: 0;
+		background-color: pink;
+	}
+
+	to {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+	}
+}

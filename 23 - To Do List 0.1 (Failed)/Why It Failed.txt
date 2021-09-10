@@ -1,0 +1,2 @@
+i dont know how to use createElement yet so i cant trigger a function on the tasks icons.
+i used innerHTML method which wont let us use functions like onclick and others.

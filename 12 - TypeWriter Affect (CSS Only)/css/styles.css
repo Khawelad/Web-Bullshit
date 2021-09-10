@@ -1,0 +1,122 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: lightpink;
+	overflow: hidden;
+	height: 100vh;
+}
+
+h2 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h2::before {
+	content: '';
+	animation: typewriter 5s linear forwards;
+}
+
+h2::after {
+	content: '';
+	animation: typewriterend 3s linear infinite;
+	animation-delay: 5s;
+}
+
+@keyframes typewriter {
+	4% {
+		content: 'H|';
+	}
+	8% {
+		content: 'Hi|';
+	}
+	12% {
+		content: 'Hi,|';
+	}
+	16% {
+		content: 'Hi, |';
+	}
+	20% {
+		content: 'Hi, M|';
+	}
+	24% {
+		content: 'Hi, My|';
+	}
+	28% {
+		content: 'Hi, My |';
+	}
+	32% {
+		content: 'Hi, My N|';
+	}
+	36% {
+		content: 'Hi, My Na|';
+	}
+	40% {
+		content: 'Hi, My Nam|';
+	}
+	44% {
+		content: 'Hi, My Name|';
+	}
+	48% {
+		content: 'Hi, My Name |';
+	}
+	52% {
+		content: 'Hi, My Name I|';
+	}
+	56% {
+		content: 'Hi, My Name Is|';
+	}
+	60% {
+		content: 'Hi, My Name Is |';
+	}
+	64% {
+		content: 'Hi, My Name Is K|';
+	}
+	68% {
+		content: 'Hi, My Name Is Ka|';
+	}
+	72% {
+		content: 'Hi, My Name Is Kaw|';
+	}
+	76% {
+		content: 'Hi, My Name Is Kawa|';
+	}
+	80% {
+		content: 'Hi, My Name Is Kawai|';
+	}
+	84% {
+		content: 'Hi, My Name Is KawaiL|';
+	}
+	88% {
+		content: 'Hi, My Name Is KawaiLa|';
+	}
+	92% {
+		content: 'Hi, My Name Is KawaiLad.|';
+	}
+	96% {
+		content: 'Hi, My Name Is KawaiLad.';
+	}
+	100% {
+		content: 'Hi, My Name Is KawaiLad.';
+	}
+}
+
+@keyframes typewriterend {
+	25% {
+		content: '|';
+	}
+	50% {
+		content: ' ';
+	}
+	75% {
+		content: '|';
+	}
+	100% {
+		content: ' ';
+	}
+}

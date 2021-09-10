@@ -1,0 +1,81 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #111111;
+}
+
+.container {
+	background-color: crimson;
+	width: 80%;
+	padding: 0 2em;
+	margin: 0 auto 1rem auto;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.container h1 {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	margin: 1rem 0;
+}
+
+.container input {
+	padding: 0.4rem;
+	border: none;
+	outline: none;
+}
+
+.container button {
+	padding: 0.4rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #efefef;
+}
+
+.container button:hover {
+	background-color: #e6e6e6
+;
+}
+
+.container button:active {
+	background-color: #dedede;
+}
+
+.task {
+	padding: 1rem;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
+
+.task h3 {
+	display: inline-block;
+	font-family: 'poppins', sans-serif;
+}
+
+.task li {
+	list-style: none;
+	display: inline;
+	font-size: 1.17em;
+	margin-left: 1rem;
+	cursor: pointer;
+	color: crimson;
+}

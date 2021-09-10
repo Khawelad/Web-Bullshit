@@ -1,0 +1,39 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.circle {
+	/*height: 200px;
+	width: 200px;*/
+	background: pink;
+	border-radius: 100%;
+	animation: circle 1s infinite;
+}
+
+@keyframes circle {
+	from {
+		height: 0;
+		width: 0;
+	}
+
+	to {
+		height: 200px;
+		width: 200px;
+	}
+}

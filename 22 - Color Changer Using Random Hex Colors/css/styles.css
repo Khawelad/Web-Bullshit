@@ -1,0 +1,41 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: pink;
+}
+
+h2 {
+	padding: 1em;
+	background-color: #121212;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 1rem;
+}
+
+button {
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #121212;
+	cursor: pointer;
+	transition: 0.1s;
+	border-radius: 1rem;
+}

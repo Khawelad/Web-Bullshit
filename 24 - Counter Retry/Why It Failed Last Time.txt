@@ -1,0 +1,2 @@
+i was not aware that u can use var in global scope but u cant use DOM API get methods in global scope and that is why i failed last time
+
