@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+div {
+	padding: 1rem;
+	background: #f3f3f3;
+	border-radius: 1rem;
+	width: 25%;
+}
+
+img {
+	aspect-ratio: 1/1;
+	width: 200px;
+}
+
+h2 {
+	margin-top: 1rem;
+}
+
+h2, p {
+	text-align: center;
+}
