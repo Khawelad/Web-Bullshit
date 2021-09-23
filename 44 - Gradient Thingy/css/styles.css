@@ -1,0 +1,83 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #121212;
+}
+
+h1 {
+	text-align: center;
+	color: #ffc119;
+	margin: 2rem 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.gradientbody {
+	width: 90%;
+	aspect-ratio: 2/1;
+	background: cornsilk;
+	border-radius: 1rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	position: relative;
+	transition: 1s;
+}
+
+.gradientbody:hover::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.gradientbody:hover::after {
+	content: 'Click To Copi\A\A\A\A\A\A';
+	position: absolute;
+	font-size: 3vw;
+	color: white;
+	white-space: pre;
+}
+
+.gradientbody p {
+	font-size: 1.6vw;
+	color: white;
+	font-weight: bold;
+	/*-webkit-text-stroke: 1px black;*/
+	text-shadow: 2px 2px #1a1a1a;
+}
+
+.items-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+
+.gradient-item {
+	width: 24%;
+	aspect-ratio: 1/1;
+	background: crimson;
+	margin: 0.5rem;
+	border-radius: 1rem;
+	cursor: pointer;
+}
