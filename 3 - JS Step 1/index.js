@@ -1,4 +1,4 @@
-document.getElementById('example').innerHTML = 'I have power to change now haha'
+document.getElementById('example').innerHTML = 'I have power to change data now haha'
 
 // var a,b,c ;
 // a = 5;
