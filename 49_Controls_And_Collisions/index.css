@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.character {
+    height: 50px;
+    width: 30px;
+    background-color: crimson;
+    position: absolute;
+    z-index: 100;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.weapon-seller {
+    height: 50px;
+    width: 40px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+}
+
+.btn-reset {
+    position: fixed;
+    padding: .5rem;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    outline: none;
+    bottom: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.npc-dialogue {
+    position: absolute;
+    background-color: red;
+    padding: 1rem;
+    width: 400px;
+    top: 100%;
+    opacity: 0;
+    transition: 1s;
+}
